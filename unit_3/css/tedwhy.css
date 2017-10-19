@@ -3,28 +3,23 @@
 	margin: 0;
 }
 
+header {
+	padding: 20px;
+}
 body {
 	background-color: #89F3FF;
 }
 
-p {
+h1 {
+	font-family: Georgia, serif;
+	font-size: 80px;
+}
+
+p, ul {
 	font-family: Helvetica, sans-serif;
-	font-size: 36px;
+	font-size: 24px;
 	text-align: left;
 	padding-bottom: 20px;
-}
-
-#slogan {
-	font-family: Georgia, serif;
-	font-size: 30px;
-	font-style: italic;
-	padding-bottom: 30px;
-}
-
-#intro {
-	font-family: Helvetica, sans-serif;
-	font-size: 54px;
-	text-align: left
 }
 
 a {
@@ -36,14 +31,25 @@ a {
 	text-transform: uppercase;
 }
 
-h1 {
-	font-family: Georgia, serif;
-	font-size: 80px;
-	padding-bottom: 20px;
-	padding-top: 30px;
+nav a {
+	
 }
 
 img {
 	padding-top: 60px;
 	padding-bottom: 30px;
+	width: 100%
 }
+
+#slogan {
+	font-family: Georgia, serif;
+	font-size: 36px;
+	font-style: italic;
+}
+
+#intro {
+	font-family: Helvetica, sans-serif;
+	font-size: 54px;
+	text-align: left
+}
+
