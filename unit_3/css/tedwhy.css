@@ -1,0 +1,49 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: #89F3FF;
+}
+
+p {
+	font-family: Helvetica, sans-serif;
+	font-size: 36px;
+	text-align: left;
+	padding-bottom: 20px;
+}
+
+#slogan {
+	font-family: Georgia, serif;
+	font-size: 30px;
+	font-style: italic;
+	padding-bottom: 30px;
+}
+
+#intro {
+	font-family: Helvetica, sans-serif;
+	font-size: 54px;
+	text-align: left
+}
+
+a {
+	font-family: Helvetica, sans-serif;
+	font-size: 14px;
+	color: #000;
+	text-weight: bolder;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+h1 {
+	font-family: Georgia, serif;
+	font-size: 80px;
+	padding-bottom: 20px;
+	padding-top: 30px;
+}
+
+img {
+	padding-top: 60px;
+	padding-bottom: 30px;
+}
