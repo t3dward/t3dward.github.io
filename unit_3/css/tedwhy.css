@@ -4,52 +4,58 @@
 }
 
 header {
-	padding: 20px;
+	padding: 30px;
+	font-family: Georgia, serif;
+	font-size: 65px;
 }
+
 body {
 	background-color: #89F3FF;
 }
 
-h1 {
-	font-family: Georgia, serif;
-	font-size: 80px;
-}
-
 p, ul {
 	font-family: Helvetica, sans-serif;
-	font-size: 24px;
+	font-weight: lighter;
+	font-size: 30px;
 	text-align: left;
-	padding-bottom: 20px;
 }
 
 a {
 	font-family: Helvetica, sans-serif;
-	font-size: 14px;
+	font-size: 16px;
+	font-weight: bolder;
 	color: #000;
-	text-weight: bolder;
 	text-decoration: none;
 	text-transform: uppercase;
 }
 
 nav a {
-	
+	padding: 20px;
+	font-size: 18px;
+	font-weight: lighter;
+	color: #222222;
 }
 
 img {
+	width: 100%;
 	padding-top: 60px;
 	padding-bottom: 30px;
-	width: 100%
 }
 
 #slogan {
-	font-family: Georgia, serif;
+	font-family: Helvetica, sans-serif;
 	font-size: 36px;
+	font-weight: lighter;
 	font-style: italic;
+	text-align: left
 }
-
 #intro {
 	font-family: Helvetica, sans-serif;
 	font-size: 54px;
+	font-weight: lighter;
 	text-align: left
 }
 
+.case-study {
+	padding-bottom: 40px
+}
