@@ -1,0 +1,92 @@
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
+
+* {
+	padding: 0;
+	margin: 0;
+} 
+
+h1 {
+	font-family: merriweather, georgia, serif;
+	font-weight: 700;
+	font-size: 3em;
+	line-height: 1.6em;
+}
+
+h2 {
+	font-size: 2em;
+	line-height: 1.6em;
+	font-weight: 700;
+}
+
+h3 {
+	font-size: 1.5em;
+	font-weight: 700;
+	line-height: 1.6em;
+}
+
+p {
+	font-family: merriweather, georgia, serif;
+	font-size: 16px;
+	line-height: 1.25em;
+	font-weight: 500;
+	color: #000;
+}
+
+a {
+	font-family: merriweather, georgia, serif;
+	font-size: 1em;
+	font-weight: 700;
+	color: #000;
+	text-decoration: none;
+}
+
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+    padding: 20px;
+}
+
+header h1 {
+	color: black;
+}
+
+nav {
+	position: relative;
+	bottom: 3em;
+	padding-right: 10%;
+	color: black;
+}
+
+nav a {
+	float: right;
+	text-transform: uppercase;
+	display: inline;
+	text-align: right;
+	margin-left: 1.5em;
+	background-color: #E8C66A;
+}
+
+footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+    padding: 20px;
+}
+
+footer a {
+	font-size: 1.5em;
+	color: black;
+	display: inline;
+	margin-right: 1.5em;
+}
+
+#overview, #case-study, #brand-tools {
+	background-color: #E89C6C;
+	border: 1px black solid;
+    padding: 20px;
+}
+
+.extra {
+	background-color: #FFC675;
+	border: 1px black solid;
+    padding: 20px;
+}
